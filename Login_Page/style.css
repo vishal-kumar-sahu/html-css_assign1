@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.page{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.image{
+    width: 70%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+}
+
+.loginArea{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.loginArea h1{
+    padding: 5px;
+    margin: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.login{
+    width: 80%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid rgba(58, 55, 55, 0.411);
+    padding: 1vh 1vw;
+    border-radius: 5%;
+}
+
+input{
+    height: 15%;
+    width: 90%;
+    margin: 1vh 1vw;
+    padding: 5px;
+}
+
+.buttonArea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15%;
+    width: 90%;
+    margin: 1vh 1vw;
+    padding: 5px;
+    padding-bottom: 0px;
+}
+
+.buttonArea button{
+    width: 50%;
+    height: 100%;
+}
